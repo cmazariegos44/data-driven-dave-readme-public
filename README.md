@@ -613,6 +613,24 @@ The data we will be using for this tile is a custom event created with the code 
 
 </details>
 
+
+## Build Dashboard 'Top Score by Level' Tile
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT max(player_score) AS 'Top Score' FROM LevelUp WHERE appName = 'Data Driven Dave' FACET current_level AS 'Level' SINCE 1 month AGO```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Top Score by Level'
+    - Chart type = 'Table'
+    - Then hit 'Save'
+
 # Dangerous Dave Replica Credits
 
 <details>
