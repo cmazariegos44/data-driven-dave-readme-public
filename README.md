@@ -615,6 +615,10 @@ The data we will be using for this tile is a custom event created with the code 
 
 
 ## Build Dashboard 'Top Score by Level' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Top Score by Level' Tile Content</summary>
+  
 1. Click 'Add Widget'
 2. Click 'Add a chart'
 3. Place the code in step A in the section that looks like step B. 
@@ -630,6 +634,7 @@ The data we will be using for this tile is a custom event created with the code 
     - Chart Name = 'Top Score by Level'
     - Chart type = 'Table'
     - Then hit 'Save'
+</details>
 
 # Dangerous Dave Replica Credits
 
