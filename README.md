@@ -105,7 +105,9 @@ We hope you enjoy!
   <summary style="background-color: #1DE783; color: black; padding: 10px;">Troubleshooting</summary>
 
 * During the step for **Testing the connection**, you may notice that the **On-host logs** fails. This is ok and is most likely due to an unsupported environment.
-* You may also run into an issue where the agent fails to connect, as shown below. If the agent fails, but you still see data being sent to your New Relic account via the **APM & Services** for Relicstaurants, then you are good to go. If the agent fails, but you do not see data being sent to your New Relic account, then you may follow the troubleshooting steps [here](https://forum.newrelic.com/s/hubtopic/aAX8W0000008bSdWAI/nodejs-troubleshooting-framework-install). <img width="806" alt="image" src="https://github.com/mchavez-newrelic/relicstaurants/assets/104166698/db0c9529-05a9-4249-927e-6056d52791c2">
+* You may also run into an issue where the agent fails to connect, as shown below. If the agent fails, but you still see data being sent to your New Relic account via the **APM & Services** for Relicstaurants, then you are good to go. If the agent fails, but you do not see data being sent to your New Relic account, then you may follow the troubleshooting steps [here](https://forum.newrelic.com/s/hubtopic/aAX8W0000008bSdWAI/nodejs-troubleshooting-framework-install).
+
+<img width="806" alt="image" src="https://github.com/mchavez-newrelic/relicstaurants/assets/104166698/db0c9529-05a9-4249-927e-6056d52791c2">
 </details>
 
 ## Add More Custom New Relic Tracing
