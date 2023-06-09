@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
+- [INTRODUCTION](#introduction)
+- [PREREQUISITES](#prerequisites)
 - [New Relic Instrumentation](#new-relic-instrumentation)
     - [Enabling distributed tracing](#enabling-distributed-tracing)
     - [Add More Custom New Relic Tracing](#add-more-custom-new-relic-tracing)
