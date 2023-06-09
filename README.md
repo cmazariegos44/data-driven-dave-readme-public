@@ -6,6 +6,7 @@
 2. [Prerequisites](#prerequisites)
 3.  [New Relic Instrumentation](#new-relic-instrumentation)
     - [Enabling distributed tracing](#enabling-distributed-tracing)
+    - [Troubleshooting](#troubleshooting)
     - [Add More Custom New Relic Tracing](#add-more-custom-new-relic-tracing)
 4.  [Build a Dashboard for Dangerous Dave App on New Relic One](#build-a-dashboard-for-dangerous-dave-app-on-new-relic-one)
     - [Build Dashboard Logo Tile](#build-dashboard-logo-tile)
@@ -96,6 +97,15 @@ We hope you enjoy!
 7. You should see the app displayed in New Relic One
 
     <img src="readmeData/app_display_nr1.png" alt="image" width="60%" height="60%">
+</details>
+
+## Troubleshooting
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Troubleshooting</summary>
+
+* During the step for **Testing the connection**, you may notice that the **On-host logs** fails. This is ok and is most likely due to an unsupported environment.
+* You may also run into an issue where the agent fails to connect, as shown below. If the agent fails, but you still see data being sent to your New Relic account via the **APM & Services** for Relicstaurants, then you are good to go. If the agent fails, but you do not see data being sent to your New Relic account, then you may follow the troubleshooting steps [here](https://forum.newrelic.com/s/hubtopic/aAX8W0000008bSdWAI/nodejs-troubleshooting-framework-install). <img width="806" alt="image" src="https://github.com/mchavez-newrelic/relicstaurants/assets/104166698/db0c9529-05a9-4249-927e-6056d52791c2">
 </details>
 
 ## Add More Custom New Relic Tracing
