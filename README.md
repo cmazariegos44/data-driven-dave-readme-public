@@ -636,6 +636,139 @@ The data we will be using for this tile is a custom event created with the code 
     - Then hit 'Save'
 </details>
 
+## Build Dashboard 'Games Played' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Games Played' Tile Content</summary>
+
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT count(*) AS 'Games' FROM GameComplete WHERE appName = 'Data Driven Dave' SINCE 1 month ago```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Games Played'
+    - Chart type = 'Billboard'
+    - Then hit 'Save'
+</details>
+
+## Build Dashboard 'Top Score Achieved' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Top Score Achieved' Tile Content</summary>
+
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT max(player_score) FROM GameComplete WHERE appName = 'Data Driven Dave' SINCE 1 month ago```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Top Score Achieved'
+    - Chart type = 'Billboard'
+    - Then hit 'Save'
+</details>
+
+## Build Dashboard 'Loot' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Loot' Tile Content</summary>
+
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT count(*) AS '# Collected', sum(`item.score`) AS 'Total Value' FROM CollectedItem FACET if(`item.id` = 'items', item.type, item.id) AS 'Item Collected' SINCE 1 month AGO```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Loot'
+    - Chart type = 'Table'
+    - Then hit 'Save'
+</details>
+
+## Build Dashboard 'Items Collected' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Items Collected' Tile Content</summary>
+
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT count(*) AS '# Collected' FROM CollectedItem FACET if(`item.id` = 'items', item.type, item.id) AS 'Item Collected' SINCE 1 hour AGO```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Items Collected'
+    - Chart type = 'Bar'
+    - Then hit 'Save'
+</details>
+
+## Build Dashboard 'Items Collected Over Time' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Items Collected Over Time' Tile Content</summary>
+
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT count(*) AS '# Collected' FROM CollectedItem FACET if(`item.id` = 'items', item.type, item.id) AS 'Item Collected' SINCE 1 hour AGO```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Items Collected Over Time'
+    - Chart type = 'Stacked Bar'
+    - Then hit 'Save'
+</details>
+
+## Build Dashboard 'Real-time Item Collection Stats' Tile
+
+<details>
+  <summary style="background-color: #1DE783; color: black; padding: 10px;">Build Dashboard 'Real-time Item Collection Stats' Tile Content</summary>
+
+1. Click 'Add Widget'
+2. Click 'Add a chart'
+3. Place the code in step A in the section that looks like step B. 
+
+    A.
+         ```SELECT count(*) FROM CollectedItem FACET if(`item.id` = 'items', item.type, item.id) SINCE 10 minutes AGO```
+
+    B. 
+    
+    <img src="readmeData/step3_maximum_level_reached.png" alt="image" width="60%" height="60%">
+    
+    C. 
+    - Chart Name = 'Real-time Item Collection Stats'
+    - Chart type = 'Billboard'
+    - Then hit 'Save'
+</details>
+
+
 # Dangerous Dave Replica Credits
 
 <details>
