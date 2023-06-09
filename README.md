@@ -94,6 +94,7 @@ We hope you enjoy!
     ```
 
 7. You should see the app displayed in New Relic One
+
     <img src="readmeData/app_display_nr1.png" alt="image" width="60%" height="60%">
 </details>
 
