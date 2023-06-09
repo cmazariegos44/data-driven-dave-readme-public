@@ -10,6 +10,12 @@
 - [Build a Dashboard for Dangerous Dave App on New Relic One](#build-a-dashboard-for-dangerous-dave-app-on-new-relic-one)
     - [Build Dashboard Logo Tile](#build-dashboard-logo-tile)
     - [Build Dashboard 'Maximum Level Reached' Tile](#build-dashboard-maximum-level-reached-tile)
+    - [Build Dashboard 'Top Score by Level' Tile](#build-dashboard-top-score-by-level-tile)
+    - [Build Dashboard 'Games Played' Tile](#build-dashboard-games-played-tile)
+    - [Build Dashboard 'Top Score Achieved' Tile](#build-dashboard-top-score-achieved-tile)
+    - [Build Dashboard 'Loot' Tile](#build-dashboard-loot-tile)
+    - [Build Dashboard 'Items Collected Over Time' Tile](#build-dashboard-items-collected-over-time-tile)
+    - [Build Dashboard 'Real-time Item Collection Stats' Tile](#build-dashboard-real-time-collection-stats-tile)
 - [Dangerous Dave Replica Credits](#dangerous-dave-replica-credits)
 
 # Introduction
