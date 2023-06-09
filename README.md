@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-- [INTRODUCTION](#introduction)
-- [PREREQUISITES](#prerequisites)
-- [New Relic Instrumentation](#new-relic-instrumentation)
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+3.  [New Relic Instrumentation](#new-relic-instrumentation)
     - [Enabling distributed tracing](#enabling-distributed-tracing)
     - [Add More Custom New Relic Tracing](#add-more-custom-new-relic-tracing)
-- [Build a Dashboard for Dangerous Dave App on New Relic One](#build-a-dashboard-for-dangerous-dave-app-on-new-relic-one)
+4.  [Build a Dashboard for Dangerous Dave App on New Relic One](#build-a-dashboard-for-dangerous-dave-app-on-new-relic-one)
     - [Build Dashboard Logo Tile](#build-dashboard-logo-tile)
     - [Build Dashboard 'Maximum Level Reached' Tile](#build-dashboard-maximum-level-reached-tile)
     - [Build Dashboard 'Top Score by Level' Tile](#build-dashboard-top-score-by-level-tile)
