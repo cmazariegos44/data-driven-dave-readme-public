@@ -78,7 +78,7 @@ We hope you enjoy!
     3. Step 3: "Start your application's main module with the New Relic agent"
         - run the command stated in step 3 in your projects terminal.
         
-        <img src="readmeData/python_installing_agent.png" alt="image" width="60%" height="60%">
+    <img src="readmeData/python_installing_agent.png" alt="image" width="60%" height="60%">
 
 5. Place this code in the main_fun.py file as seen on the screenshot below:  
     ```python main_fun.py
